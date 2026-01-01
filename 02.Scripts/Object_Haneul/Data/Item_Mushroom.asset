@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f514fdbe521ad541885834cff3c05fe, type: 3}
+  m_Name: Item_Mushroom
+  m_EditorClassIdentifier: 
+  itemName: "\uBC84\uC12F"
+  description: "\uC54C \uC218 \uC5C6\uB294 \uC131\uBD84\uC73C\uB85C \uAC00\uB4DD
+    \uCC38"
+  icon: {fileID: 21300000, guid: 66f8b87cafd5a7c4ea2337b02b3bc6c4, type: 3}
+  dropPrefab: {fileID: 181142, guid: d2eb4c54826dc8d49926ce01a1b683d6, type: 3}
+  canStack: 1
+  maxStackAmount: 100
+  consumables: []

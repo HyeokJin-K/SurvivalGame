@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1469507667009428373
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2840978842185732527, guid: f6c75ad35130b7748832a915c2c42c09, type: 3}
+      propertyPath: m_Name
+      value: T_Tree_c
+      objectReference: {fileID: 0}
+    - target: {fileID: 2840978842185732527, guid: f6c75ad35130b7748832a915c2c42c09, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146968191317355773, guid: f6c75ad35130b7748832a915c2c42c09, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146968191317355773, guid: f6c75ad35130b7748832a915c2c42c09, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181511219182947093, guid: f6c75ad35130b7748832a915c2c42c09, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.175903
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181511219182947093, guid: f6c75ad35130b7748832a915c2c42c09, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.3056526
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181511219182947093, guid: f6c75ad35130b7748832a915c2c42c09, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181511219182947093, guid: f6c75ad35130b7748832a915c2c42c09, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181511219182947093, guid: f6c75ad35130b7748832a915c2c42c09, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181511219182947093, guid: f6c75ad35130b7748832a915c2c42c09, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181511219182947093, guid: f6c75ad35130b7748832a915c2c42c09, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181511219182947093, guid: f6c75ad35130b7748832a915c2c42c09, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181511219182947093, guid: f6c75ad35130b7748832a915c2c42c09, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3181511219182947093, guid: f6c75ad35130b7748832a915c2c42c09, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2840978842185732527, guid: f6c75ad35130b7748832a915c2c42c09, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5723187212724123508}
+  m_SourcePrefab: {fileID: 100100000, guid: f6c75ad35130b7748832a915c2c42c09, type: 3}
+--- !u!1 &3677631492817603130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2840978842185732527, guid: f6c75ad35130b7748832a915c2c42c09, type: 3}
+  m_PrefabInstance: {fileID: 1469507667009428373}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-5723187212724123508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3677631492817603130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e925e7b6980170a47ac2c9db57186635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resourceData: {fileID: 11400000, guid: 4d1dc8b1007c2434c8fadeda38d5ad8d, type: 2}
+  quantityPerHit: 1
+  maxHits: 3
+  droppedItemPrefab: {fileID: 6184387989267186611, guid: 6ff9decade6a14f409b7544775fd6c2c, type: 3}
+  dropRadius: 1.5
+  dropHeight: 1
+  showDebugLog: 1

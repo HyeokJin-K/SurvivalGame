@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa10a4797a14cbe8011dfa0734a5743, type: 3}
+  m_Name: Troll Stats
+  m_EditorClassIdentifier: 
+  maxHP: 250
+  damage: 25
+  turnSpeed: 50
+  patrolWaitTime: 1
+  patrolChance: 30
+  patrolDetectionDistance: 10
+  detectionSightAngle: 60
+  chaseWaitTime: 0.5
+  minimumRunDistance: 1
+  attackCooldown: 1.3
+  attackRange: 2
+  attackAngle: 60
+  detectionTargetLayerMask:
+    serializedVersion: 2
+    m_Bits: 128

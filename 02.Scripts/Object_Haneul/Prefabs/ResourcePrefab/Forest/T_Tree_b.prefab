@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &319610627025804605
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 519504645329913652, guid: 54d4a30273cdf3c4fbda6e503f409b31, type: 3}
+      propertyPath: m_Name
+      value: T_Tree_b
+      objectReference: {fileID: 0}
+    - target: {fileID: 519504645329913652, guid: 54d4a30273cdf3c4fbda6e503f409b31, type: 3}
+      propertyPath: m_Layer
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 861541478881770090, guid: 54d4a30273cdf3c4fbda6e503f409b31, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 861541478881770090, guid: 54d4a30273cdf3c4fbda6e503f409b31, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 900286805650070926, guid: 54d4a30273cdf3c4fbda6e503f409b31, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.418182
+      objectReference: {fileID: 0}
+    - target: {fileID: 900286805650070926, guid: 54d4a30273cdf3c4fbda6e503f409b31, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.293474
+      objectReference: {fileID: 0}
+    - target: {fileID: 900286805650070926, guid: 54d4a30273cdf3c4fbda6e503f409b31, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.327116
+      objectReference: {fileID: 0}
+    - target: {fileID: 900286805650070926, guid: 54d4a30273cdf3c4fbda6e503f409b31, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 900286805650070926, guid: 54d4a30273cdf3c4fbda6e503f409b31, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 900286805650070926, guid: 54d4a30273cdf3c4fbda6e503f409b31, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 900286805650070926, guid: 54d4a30273cdf3c4fbda6e503f409b31, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 900286805650070926, guid: 54d4a30273cdf3c4fbda6e503f409b31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 900286805650070926, guid: 54d4a30273cdf3c4fbda6e503f409b31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 900286805650070926, guid: 54d4a30273cdf3c4fbda6e503f409b31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 519504645329913652, guid: 54d4a30273cdf3c4fbda6e503f409b31, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8470957747377663654}
+  m_SourcePrefab: {fileID: 100100000, guid: 54d4a30273cdf3c4fbda6e503f409b31, type: 3}
+--- !u!1 &241745863341120009 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 519504645329913652, guid: 54d4a30273cdf3c4fbda6e503f409b31, type: 3}
+  m_PrefabInstance: {fileID: 319610627025804605}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8470957747377663654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241745863341120009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e925e7b6980170a47ac2c9db57186635, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resourceData: {fileID: 11400000, guid: 4d1dc8b1007c2434c8fadeda38d5ad8d, type: 2}
+  quantityPerHit: 1
+  maxHits: 4
+  droppedItemPrefab: {fileID: 6184387989267186611, guid: 6ff9decade6a14f409b7544775fd6c2c, type: 3}
+  dropRadius: 1.5
+  dropHeight: 1
+  showDebugLog: 1
